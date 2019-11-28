@@ -14,7 +14,7 @@ function confirmEnding(str, target) {
      a++;
    }
  }
-return a === target.length;				//posto ovo radi isto sto i "if"
+return a === target.length;	
 }
 
 // My second solution:
