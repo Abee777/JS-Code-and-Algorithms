@@ -1,1 +1,1 @@
-# JS-Code-and-Algorithms
+# JS Code and Algorithms
