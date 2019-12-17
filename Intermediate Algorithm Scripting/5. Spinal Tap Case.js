@@ -5,7 +5,7 @@ all-lowercase-words-joined-by-dashes.*/
 // My Solution:
 
 function spinalCase(str) {
-  let regex= /\s+|_/g;							// 	or: regex= /\W+|_/g;
+  let regex = /\W+|_/g;	
   //adds space between a lowercase and uppercase in one string:
   str = str.replace(/([a-z])([A-Z])/g, '$1 $2');	
   return str.replace(regex, "-").toLowerCase();
