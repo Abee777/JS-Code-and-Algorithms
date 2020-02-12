@@ -25,6 +25,8 @@ Ten Dollars $10 (TEN)
 Twenty Dollars  $20 (TWENTY)
 One-hundred Dollars $100 (ONE HUNDRED) */
 
+// My solution:
+
 function checkCashRegister(price, cash, cid) {
   let arr = [1,5,10,25,100,500,1000,2000,10000];
   let a = (cash-price)*100, arrReal =[], RealSum = 0, arr2=[];
