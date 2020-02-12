@@ -11,3 +11,5 @@ if (arr.indexOf(elem)<0){
 // change code here to test different cases:
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 console.log(quickCheck(["squash", "onions", "shallots"], "onions"));
+
+
